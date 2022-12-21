@@ -12,3 +12,12 @@ states_of_america[1] = "Pencilvania"
 states_of_america.append("Anjelaland")
 
 print(states_of_america)
+
+states_of_america.insert(len(states_of_america), "Sudharaland") 
+
+print(states_of_america)
+
+print(len(states_of_america))
+
+states_of_america.extend(["State 53", "state 54"])
+print(states_of_america)
