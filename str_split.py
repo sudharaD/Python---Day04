@@ -13,3 +13,6 @@ random_name = random.randint(1, len(names))
 print(random_name)
 
 print(f"{names[random_name-1]} is going to buy the meal today!")
+
+# choice function
+print(f"{random.choice(names)} is going to buy the meal today!")
